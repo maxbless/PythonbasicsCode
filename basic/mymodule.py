@@ -1,3 +1,2 @@
-def say_love():
-    print('i love laiyubin')
-__version__ = '0.1'
+def day_520():
+    print('i love you,520')
