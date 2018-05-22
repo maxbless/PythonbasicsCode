@@ -17,5 +17,10 @@ print('Number of animals in the new zoo is', len(new_zoo) - 1 +
 def MaxNum(a,b):
     if a>b:
         print(a,'最大')
-    elif
+    elif a==b:
+        print(a,'相同与',b)
+    else:
+        print(b,'最大')
+
+MaxNum(5,6)
 
