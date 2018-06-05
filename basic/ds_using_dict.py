@@ -18,3 +18,4 @@ print(goodman)
 goodman['aihao'] = 'basketball'
 if 'aihao' in goodman:
     print('laiyubin love ', goodman['aihao'])
+
