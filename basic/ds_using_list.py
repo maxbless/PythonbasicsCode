@@ -3,7 +3,7 @@ shoplist = ['1', '2', '3', '4']
 print('i have', len(shoplist), 'items to purchase')
 print('these items are:', end=' ')
 for item in shoplist:
-    print(item, end=' ')
+    print(item, end='')
 
 shoplist.append('rice')
 print('\nmy shoplist is now', shoplist)
