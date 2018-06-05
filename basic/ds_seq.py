@@ -14,3 +14,5 @@ print('item 1 to -1 is',shoplist[1:-1])
 #从某一字符串中截取
 print('1 to 30 is',name[1:3])
 print('2 to -1 is',name[2:-1])#-1不包括最后一项
+
+#
