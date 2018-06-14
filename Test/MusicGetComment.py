@@ -40,8 +40,8 @@ def start_spider(url):
     """
     brower = webdriver.Chrome()
     brower.get(url)
-    # 等待 5 秒, 让评论数据加载完成
-    time.sleep(5)
+    # 等待 3 秒, 让评论数据加载完成
+    time.sleep(3)
     # 页面嵌套一层 iframe, 必须切换到 iframe, 才能定位的到 iframe 里面的元素
     iframe = brower.find_element_by_class_name('g-iframe')
     brower.switch_to.frame(iframe)
